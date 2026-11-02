@@ -1,6 +1,8 @@
-# RoleSail — Job Search Assistant
+# AI Auto Job Applier
 
-RoleSail is a read-only Python job search assistant that collects listings from Greenhouse, Lever, and Ashby and compares them with a supplied skills list. It normalizes public job data, checks freshness and location rules, and returns explainable match results.
+An early-stage Python project that discovers jobs from Greenhouse, Lever, and Ashby and matches them against a supplied skills list.
+
+**Current status:** Job discovery and matching are available. AI résumé generation and automatic applications are planned, not implemented.
 
 ## Features
 
@@ -32,10 +34,6 @@ python -m src ashby BOARD_ID --skill TypeScript
 ```
 
 Output is JSON. Supplying `--skill` adds a match result for each job; without it, the command only discovers listings. These commands make read-only requests to the provider's public API.
-
-## Project direction
-
-Potential future features include AI-assisted résumé tailoring and automated application workflows. These are not implemented in the current public version.
 
 ## Matching scope
 
