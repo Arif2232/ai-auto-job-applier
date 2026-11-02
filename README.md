@@ -1,8 +1,10 @@
 # AI Auto Job Applier
 
-An early-stage Python project that discovers jobs from Greenhouse, Lever, and Ashby and matches them against a supplied skills list.
+A Python job-search automation project that discovers opportunities across multiple platforms, tailors résumés using candidate evidence, and submits applications automatically where supported.
 
-**Current status:** Job discovery and matching are available. AI résumé generation and automatic applications are planned, not implemented.
+The full local project discovers jobs from Greenhouse, Lever, Ashby, Wellfound, Naukri, Instahyre, Y Combinator, Himalayas, and Remotive. It supports automated application workflows, including Greenhouse and Instahyre; coverage varies by form and some applications require login, verification, or manual action.
+
+**This public repository** contains the reusable, read-only discovery and matching components for Greenhouse, Lever, and Ashby. Résumé tailoring and automatic application workflows remain in the separate local project and are not included here.
 
 ## Features
 
@@ -12,7 +14,7 @@ An early-stage Python project that discovers jobs from Greenhouse, Lever, and As
 - Limit network destinations, redirects, retries, and concurrent requests.
 - Run mocked tests without accounts, credentials, or live network access.
 
-This is a reusable extraction from a larger personal job-search project. It does not submit applications or include personal profiles, résumés, or application history.
+The public code does not submit applications or include personal profiles, résumés, or application history.
 
 ## Get started
 
